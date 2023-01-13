@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #19a1ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(/images/bg-pattern-top.svg); */
+  /* url(/images/bg-pattern-bottom.svg); */
+  /* background-repeat: no-repeat; */
+  /* background-position: top left, bottom right;
+  background-size: auto; */
+}
+.profile-card {
+  font-family: "poppins", sans-serif;
+  width: 30%;
+  min-width: 350px;
+  text-align: center;
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+}
+.coverpicture {
+  display: block;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.profilepicture {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: -50px;
+}
+.profile-card h2 {
+  font-weight: 500;
+}
+.pname {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.pname span {
+  font-weight: lighter;
+  color: #b1b1b4;
+  font-family: "optima";
+}
+.ptext {
+  margin-bottom: 20px;
+  color: #b1b1b4;
+  font-size: 13px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  border-top: 2px solid #f3f3f3;
+  padding: 20px 0;
+}
+.row h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.row p {
+  padding-top: 3px;
+  font-size: 10px;
+  color: #babcbc;
+}
